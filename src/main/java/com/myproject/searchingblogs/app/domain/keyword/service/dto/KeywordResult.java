@@ -1,6 +1,6 @@
-package com.myproject.searchingblogs.app.domain.search.keyword.service.dto;
+package com.myproject.searchingblogs.app.domain.keyword.service.dto;
 
-import com.myproject.searchingblogs.app.domain.search.keyword.entity.KeywordEntity;
+import com.myproject.searchingblogs.app.domain.keyword.entity.KeywordEntity;
 import lombok.Builder;
 import lombok.Getter;
 

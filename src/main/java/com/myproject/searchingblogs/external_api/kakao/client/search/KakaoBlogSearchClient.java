@@ -1,8 +1,8 @@
 package com.myproject.searchingblogs.external_api.kakao.client.search;
 
 import com.myproject.searchingblogs.external_api.common.BlogSearchClient;
+import com.myproject.searchingblogs.external_api.common.UriBuilderService;
 import com.myproject.searchingblogs.external_api.kakao.client.search.response.KakaoBlogSearchResponse;
-import com.myproject.searchingblogs.external_api.kakao.service.KakaoUriBuilderService;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Value;
@@ -29,7 +29,7 @@ public class KakaoBlogSearchClient implements BlogSearchClient<KakaoBlogSearchRe
 
     private final String PATH = "/search/blog";
 
-    private final KakaoUriBuilderService kakaoUriBuilderService;
+    private final UriBuilderService uriBuilderService;
 
     @Retryable(
             retryFor = {RuntimeException.class},
@@ -38,7 +38,7 @@ public class KakaoBlogSearchClient implements BlogSearchClient<KakaoBlogSearchRe
     )
     @Override
     public KakaoBlogSearchResponse search(String query, int page, int size, String sort) {
-        URI uri = kakaoUriBuilderService.buildURI(PATH, query, page, size, sort);
+        URI uri = uriBuilderService.buildURI(PATH, query, page, size, sort);
 
         HttpHeaders headers = new HttpHeaders();
         headers.set(HttpHeaders.AUTHORIZATION, "KakaoAK " + kakaoRestApiKey);

@@ -1,6 +1,6 @@
-package com.myproject.searchingblogs.app.domain.search.keyword.repository;
+package com.myproject.searchingblogs.app.domain.keyword.repository;
 
-import com.myproject.searchingblogs.app.domain.search.keyword.entity.KeywordEntity;
+import com.myproject.searchingblogs.app.domain.keyword.entity.KeywordEntity;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.util.List;

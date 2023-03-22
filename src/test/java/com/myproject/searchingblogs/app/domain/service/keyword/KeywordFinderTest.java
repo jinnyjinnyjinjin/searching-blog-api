@@ -1,9 +1,9 @@
 package com.myproject.searchingblogs.app.domain.service.keyword;
 
-import com.myproject.searchingblogs.app.domain.search.keyword.entity.KeywordEntity;
-import com.myproject.searchingblogs.app.domain.search.keyword.service.KeywordFinder;
-import com.myproject.searchingblogs.app.domain.search.keyword.service.KeywordReader;
-import com.myproject.searchingblogs.app.domain.search.keyword.service.dto.KeywordResult;
+import com.myproject.searchingblogs.app.domain.keyword.entity.KeywordEntity;
+import com.myproject.searchingblogs.app.domain.keyword.service.KeywordFinder;
+import com.myproject.searchingblogs.app.domain.keyword.service.KeywordReader;
+import com.myproject.searchingblogs.app.domain.keyword.service.dto.KeywordResult;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;

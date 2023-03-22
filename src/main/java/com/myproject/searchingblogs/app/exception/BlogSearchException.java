@@ -1,4 +1,4 @@
-package com.myproject.searchingblogs.app.exception.search;
+package com.myproject.searchingblogs.app.exception;
 
 public class BlogSearchException extends RuntimeException {
     private Object field;

@@ -1,4 +1,4 @@
-package com.myproject.searchingblogs.app.domain.search.keyword.entity;
+package com.myproject.searchingblogs.app.domain.keyword.entity;
 
 import jakarta.persistence.*;
 import lombok.Getter;

@@ -1,7 +1,7 @@
 package com.myproject.searchingblogs.app.service.keyword;
 
-import com.myproject.searchingblogs.app.domain.search.keyword.service.KeywordFinder;
-import com.myproject.searchingblogs.app.domain.search.keyword.service.dto.KeywordResult;
+import com.myproject.searchingblogs.app.domain.keyword.service.KeywordFinder;
+import com.myproject.searchingblogs.app.domain.keyword.service.dto.KeywordResult;
 import com.myproject.searchingblogs.app.service.keyword.dto.KeywordDto;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;

@@ -1,8 +1,8 @@
-package com.myproject.searchingblogs.app.domain.search.keyword.service;
+package com.myproject.searchingblogs.app.domain.keyword.service;
 
-import com.myproject.searchingblogs.app.domain.search.keyword.entity.KeywordEntity;
-import com.myproject.searchingblogs.app.domain.search.keyword.repository.KeywordRepository;
-import com.myproject.searchingblogs.app.exception.search.keyword.KeywordNotFoundException;
+import com.myproject.searchingblogs.app.domain.keyword.entity.KeywordEntity;
+import com.myproject.searchingblogs.app.domain.keyword.repository.KeywordRepository;
+import com.myproject.searchingblogs.app.exception.keyword.KeywordNotFoundException;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Component;
 import org.springframework.transaction.annotation.Transactional;
