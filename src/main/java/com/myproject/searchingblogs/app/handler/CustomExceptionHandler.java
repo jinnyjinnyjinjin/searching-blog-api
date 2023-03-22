@@ -1,7 +1,7 @@
 package com.myproject.searchingblogs.app.handler;
 
 import com.myproject.searchingblogs.app.controller.ApiResponse;
-import com.myproject.searchingblogs.app.exception.search.blog.BlogSearchException;
+import com.myproject.searchingblogs.app.exception.search.BlogSearchException;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

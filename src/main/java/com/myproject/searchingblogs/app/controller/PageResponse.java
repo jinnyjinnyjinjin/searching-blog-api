@@ -1,6 +1,5 @@
 package com.myproject.searchingblogs.app.controller;
 
-import com.myproject.searchingblogs.app.controller.PageMeta;
 import lombok.Getter;
 import org.springframework.data.domain.Page;
 import org.springframework.util.Assert;

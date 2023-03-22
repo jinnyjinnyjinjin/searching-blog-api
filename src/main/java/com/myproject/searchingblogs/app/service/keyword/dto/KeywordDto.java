@@ -1,4 +1,4 @@
-package com.myproject.searchingblogs.app.service.search.keyword.dto;
+package com.myproject.searchingblogs.app.service.keyword.dto;
 
 import com.myproject.searchingblogs.app.domain.search.keyword.service.dto.KeywordResult;
 import lombok.Builder;

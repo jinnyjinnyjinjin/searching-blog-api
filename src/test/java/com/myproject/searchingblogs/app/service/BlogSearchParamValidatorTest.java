@@ -1,6 +1,6 @@
-package com.myproject.searchingblogs.app.service.search.blog;
+package com.myproject.searchingblogs.app.service;
 
-import com.myproject.searchingblogs.app.service.search.BlogSearchParamValidator;
+import com.myproject.searchingblogs.app.service.BlogSearchParamValidator;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;

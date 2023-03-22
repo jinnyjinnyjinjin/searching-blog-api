@@ -1,4 +1,4 @@
-package com.myproject.searchingblogs.app.service.search.blog;
+package com.myproject.searchingblogs.app.service;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;

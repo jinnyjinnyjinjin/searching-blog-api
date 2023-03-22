@@ -1,10 +1,8 @@
-package com.myproject.searchingblogs.app.controller.search;
+package com.myproject.searchingblogs.app.controller;
 
-import com.myproject.searchingblogs.app.controller.ApiResponse;
-import com.myproject.searchingblogs.app.controller.PageResponse;
-import com.myproject.searchingblogs.app.controller.search.keyword.response.KeywordResponse;
-import com.myproject.searchingblogs.app.service.search.SearchService;
-import com.myproject.searchingblogs.app.service.search.keyword.KeywordService;
+import com.myproject.searchingblogs.app.controller.keyword.response.KeywordResponse;
+import com.myproject.searchingblogs.app.service.SearchService;
+import com.myproject.searchingblogs.app.service.keyword.KeywordService;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.data.domain.Page;

@@ -1,6 +1,7 @@
-package com.myproject.searchingblogs.app.service.search.keyword;
+package com.myproject.searchingblogs.app.service.keyword.mock;
 
-import com.myproject.searchingblogs.app.service.search.keyword.dto.KeywordDto;
+import com.myproject.searchingblogs.app.service.keyword.KeywordService;
+import com.myproject.searchingblogs.app.service.keyword.dto.KeywordDto;
 
 import java.util.Comparator;
 import java.util.List;

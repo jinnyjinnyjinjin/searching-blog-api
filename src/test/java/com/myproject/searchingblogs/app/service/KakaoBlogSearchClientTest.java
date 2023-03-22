@@ -1,4 +1,4 @@
-package com.myproject.searchingblogs.app.service.search.blog;
+package com.myproject.searchingblogs.app.service;
 
 import com.myproject.searchingblogs.external_api.kakao.client.search.KakaoBlogSearchClient;
 import com.myproject.searchingblogs.external_api.kakao.client.search.response.KakaoBlogSearchResponse;

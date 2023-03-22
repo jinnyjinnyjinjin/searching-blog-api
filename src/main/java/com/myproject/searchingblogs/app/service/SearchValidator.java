@@ -1,4 +1,4 @@
-package com.myproject.searchingblogs.app.service.search;
+package com.myproject.searchingblogs.app.service;
 
 public interface SearchValidator {
     void validateQuery(String query);

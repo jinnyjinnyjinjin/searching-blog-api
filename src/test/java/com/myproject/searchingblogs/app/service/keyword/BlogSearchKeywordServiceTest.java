@@ -1,6 +1,7 @@
-package com.myproject.searchingblogs.app.service.search.keyword;
+package com.myproject.searchingblogs.app.service.keyword;
 
-import com.myproject.searchingblogs.app.service.search.keyword.dto.KeywordDto;
+import com.myproject.searchingblogs.app.service.keyword.KeywordService;
+import com.myproject.searchingblogs.app.service.keyword.dto.KeywordDto;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;

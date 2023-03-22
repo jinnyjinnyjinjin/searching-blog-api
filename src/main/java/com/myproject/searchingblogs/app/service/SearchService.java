@@ -1,4 +1,4 @@
-package com.myproject.searchingblogs.app.service.search;
+package com.myproject.searchingblogs.app.service;
 
 import com.myproject.searchingblogs.app.service.dto.SearchedBlogDto;
 import org.springframework.data.domain.Page;

@@ -1,4 +1,4 @@
-package com.myproject.searchingblogs.app.controller.search;
+package com.myproject.searchingblogs.app.controller;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.myproject.searchingblogs.app.service.dto.SearchedBlogDto;

@@ -1,7 +1,7 @@
-package com.myproject.searchingblogs.app.service.search.blog;
+package com.myproject.searchingblogs.app.service;
 
-import com.myproject.searchingblogs.app.service.search.BlogSearchParamValidator;
-import com.myproject.searchingblogs.app.service.search.KakaoBlogSearchService;
+import com.myproject.searchingblogs.app.service.BlogSearchParamValidator;
+import com.myproject.searchingblogs.app.service.KakaoBlogSearchService;
 import com.myproject.searchingblogs.external_api.common.BlogSearchClient;
 import com.myproject.searchingblogs.external_api.kakao.client.search.response.MetaResponse;
 import com.myproject.searchingblogs.external_api.kakao.client.search.response.BlogDocument;

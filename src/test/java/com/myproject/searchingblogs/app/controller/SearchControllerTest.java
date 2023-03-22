@@ -1,10 +1,10 @@
-package com.myproject.searchingblogs.app.controller.search;
+package com.myproject.searchingblogs.app.controller;
 
 import com.myproject.searchingblogs.app.service.dto.SearchedBlogDto;
-import com.myproject.searchingblogs.app.service.search.KakaoBlogSearchService;
-import com.myproject.searchingblogs.app.service.search.keyword.KeywordService;
-import com.myproject.searchingblogs.app.service.search.keyword.MockKeywordService;
-import com.myproject.searchingblogs.app.service.search.keyword.dto.KeywordDto;
+import com.myproject.searchingblogs.app.service.KakaoBlogSearchService;
+import com.myproject.searchingblogs.app.service.keyword.KeywordService;
+import com.myproject.searchingblogs.app.service.keyword.mock.MockKeywordService;
+import com.myproject.searchingblogs.app.service.keyword.dto.KeywordDto;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;

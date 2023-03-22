@@ -1,6 +1,6 @@
 package com.myproject.searchingblogs.app.exception.search.keyword;
 
-import com.myproject.searchingblogs.app.exception.search.blog.BlogSearchException;
+import com.myproject.searchingblogs.app.exception.search.BlogSearchException;
 
 public class KeywordNotFoundException extends BlogSearchException {
 

@@ -1,7 +1,7 @@
-package com.myproject.searchingblogs.app.controller.search.keyword.response;
+package com.myproject.searchingblogs.app.controller.keyword.response;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
-import com.myproject.searchingblogs.app.service.search.keyword.dto.KeywordDto;
+import com.myproject.searchingblogs.app.service.keyword.dto.KeywordDto;
 import lombok.Builder;
 import lombok.Getter;
 

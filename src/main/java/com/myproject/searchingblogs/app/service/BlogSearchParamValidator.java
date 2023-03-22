@@ -1,7 +1,6 @@
-package com.myproject.searchingblogs.app.service.search;
+package com.myproject.searchingblogs.app.service;
 
 import com.myproject.searchingblogs.external_api.kakao.enums.SortBy;
-import com.myproject.searchingblogs.app.service.search.SearchValidator;
 import org.springframework.stereotype.Component;
 import org.springframework.util.ObjectUtils;
 
