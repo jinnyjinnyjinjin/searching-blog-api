@@ -1,0 +1,17 @@
+kakao:
+  rest:
+    api:
+      key: 444abb7bfd9add7da4adc53c1c719909
+
+spring:
+  jpa:
+    hibernate:
+      ddl-auto: create
+    show-sql: true
+    properties:
+      hibernate:
+        format_sql: true
+
+  sql:
+    init:
+      mode: always

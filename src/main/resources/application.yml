@@ -1,0 +1,41 @@
+spring:
+  profiles:
+    active: local
+    group:
+      local:
+        - common
+
+---
+spring:
+  config:
+    activate:
+      on-profile: common
+
+kakao:
+  rest:
+    api:
+      key: 444abb7bfd9add7da4adc53c1c719909
+
+---
+
+spring:
+  config:
+    activate:
+      on-profile: local
+  jpa:
+    hibernate:
+      ddl-auto: create
+    show-sql: true
+    properties:
+      hibernate:
+        format_sql: true
+    defer-datasource-initialization: true
+  sql:
+    init:
+      mode: always
+      data-locations: classpath:sqls/insert-keywords.sql
+
+logging:
+  level:
+    root: INFO
+
